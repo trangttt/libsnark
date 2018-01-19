@@ -17,7 +17,7 @@ endif()
 # appropriate options themselves for embedding.
 add_library(
   snark
-  STATIC
+  SHARED
 
   common/data_structures/integer_permutation.cpp
   common/data_structures/set_commitment.cpp
